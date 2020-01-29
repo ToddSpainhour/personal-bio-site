@@ -37,6 +37,11 @@ h5 {
     padding-bottom: 25%;
 }
 
+img {
+max-width: 25%;
+max-height: 25%;
+}
+
 .page-footer {
     background-color: royalblue;
     color: seashell;

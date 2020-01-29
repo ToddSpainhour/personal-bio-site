@@ -38,18 +38,24 @@ const printToDom = (divId, textToPrint) => {
 }
 
 const buildProjectCards = () => {
-    let domString = "";
-    for(i = 0; i < projects.length; i++) {
-    domString += `<div class="individualProjectCards">`;
-    domString += `<h3 class="projectTitle">${projects[i].title}</h3>`;
-    domString += `<img src=${projects[i].screenshot} class="projectSCreenshot>`;
-    domString += `<p class="technologiesUsed">${projects[i].technologiesUsed}</p>`
-    domString =+ `</div>`;
-    }
-printToDom("printProjectsHere", domString);
+    let domString = '';
+for (i = 0; i < projects.length; i++){
+domString += '<div class="individualProjectCards">'
+
+    domString += `<h2>${projects[i].title}</h2>`
+    domString += `<img src="${projects[i].screenshot}">`
+    domString += `<p>${projects[i].description}</p>`
+    domString += `<p>${projects[i].technologiesUsed}</p>`
+    domString += `<p>${"URL: "}${projects[i].url}</p>`
+    domString += `<p>${"Github: "}${projects[i].githubUrl}</p>`
+
+domString += '</div>'
+} 
+//console.log('div id of where to aim it', domString)
+printToDom('printProjectsHere', domString)
 }
 
-console.log(buildProjectCards())
+buildProjectCards()
 
 
 
