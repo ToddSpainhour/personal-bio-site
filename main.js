@@ -1,4 +1,3 @@
-console.log("If you can read this, your JavaScript file is connected.")
 
 const projects = [
     {
@@ -37,25 +36,26 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 }
 
-const buildProjectCards = () => {
+const buildProjectCards = (arr) => {
     let domString = '';
-for (i = 0; i < projects.length; i++){
+for (i = 0; i < arr.length; i++){
+    if(projects[i].available === true) {
 domString += '<div class="individualProjectCards">'
 
-    domString += `<h2>${projects[i].title}</h2>`
-    domString += `<img src="${projects[i].screenshot}">`
-    domString += `<p>${projects[i].description}</p>`
-    domString += `<p>${projects[i].technologiesUsed}</p>`
-    domString += `<p>${"URL: "}${projects[i].url}</p>`
-    domString += `<p>${"Github: "}${projects[i].githubUrl}</p>`
+    domString += `<h2>${arr[i].title}</h2>`
+    domString +=    `<img src="${arr[i].screenshot}">`
+    domString +=        `<p>${arr[i].description}</p>`
+    domString +=            `<p>${arr[i].technologiesUsed}</p>`
+    domString +=                `<p>${"URL: "}${arr[i].url}</p>`
+    domString +=                    `<p>${"Github: "}${arr[i].githubUrl}</p>`
 
 domString += '</div>'
 } 
-//console.log('div id of where to aim it', domString)
+}
 printToDom('printProjectsHere', domString)
 }
 
-buildProjectCards()
+buildProjectCards(projects)
 
 
 
@@ -65,7 +65,8 @@ Each object in the array should have the following properties (you will use dumm
 
 Create two functions:
 printToDom: This function should accept 2 arguments: the ID of the element to print it in and a string to print.
-createProjectCards: This function should loop through the projects array and build up a 'dom string' (a complex HTML structure represented by a string) that includes all the information on the project. It should call the printToDom function for each project (hint: For this one, you'll be printing to the div with the ID projectsPage).
+createProjectCards: This function should loop through the projects array and build up a 'dom string' (a complex HTML structure represented by a string) 
+that includes all the information on the project. It should call the printToDom function for each project (hint: For this one, you'll be printing to the div with the ID projectsPage).
 Only print 'available' projects. In your createProjectCards function, add logic to only show the project on the page if it has a value of true in the available property.
 Call the createProjectCards(); function in an init function that runs when the project loads.
 */
