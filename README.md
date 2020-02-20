@@ -3,7 +3,7 @@
 ## Description: In this project, I created a personalized portfolio site with the purpose of sharing my projects and resume. 
 
 ## Screenshots
-![Project Screenshot](./screenshots/bio-site-screenshot-v1.jpg)
+![Project Screenshot](https://raw.githubusercontent.com/ToddSpainhour/personal-bio-site/master/screenshots/bio-site-screenshot-v1.jpg)
 
 ## How To Run
 1. Clone down this repo.
