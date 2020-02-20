@@ -40,7 +40,7 @@ const buildProjectCards = (arr) => {
     let domString = '';
 for (i = 0; i < arr.length; i++){
     if(projects[i].available === true) {
-domString += '<div class="individualProjectCards">'
+domString += '<div class="individualProjectCards col">'
 
     domString += `<h2>${arr[i].title}</h2>`
     domString +=    `<img src="${arr[i].screenshot}">`
