@@ -1,6 +1,20 @@
 body {
-    background-color: royalblue;
-    color: seashell;
+    /* background-color: royalblue;
+    color: seashell; */
+    background-image: url("./images/background-square.png");
+    background-repeat: repeat-y-x;
+}
+
+.name-at-top {
+    color: snow;
+}
+
+nav {
+    background-image: radial-gradient(circle, #4179A6,#326894);
+}
+
+h1 {
+    color: snow;
 }
 
 h2 {
@@ -17,22 +31,27 @@ h5 {
 }
 
 #bioPage {
-    background-color: seashell;
-    color: royalblue;
+    
+    /* dark blue #144876 */
+    /* middle blue #296291 */
+    /* light blue #4179A6 */
+    color: #4179A6;
     padding-top: 5%;;
     padding-bottom: 5%;
 }
 
 #technologiesPage {
-    background-color: royalblue;
+    /* background-color: #4179A6; */
+    /* background-image: radial-gradient(circle, #4179A6,#296291, #144876); */
+    background-image: radial-gradient(circle, #4179A6,#326894);
     color: seashell;
     padding-top: 5%;;
     padding-bottom: 5%;
 }
 
 #projectsPage {
-    background-color: seashell;
-    color: royalblue;
+   
+    color: #4179A6;
     padding-top: 5%;;
     padding-bottom: 5%;
 }
