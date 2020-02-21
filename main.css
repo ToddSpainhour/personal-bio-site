@@ -19,6 +19,7 @@ h1 {
 
 h2 {
     text-align: center;
+    padding-bottom: 5%;
 }
 
 h3 {
@@ -54,6 +55,14 @@ h5 {
     color: #4179A6;
     padding-top: 5%;;
     padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+#resumePage {
+    background-image: radial-gradient(circle, #4179A6,#326894);
+    color: seashell;
+    padding-top: 5%;;
+    padding-bottom: 5%;
 }
 
 img {
@@ -62,6 +71,6 @@ max-height: 25%;
 }
 
 .page-footer {
-    background-color: royalblue;
-    color: seashell;
+    background-color: snow;
+    
 }
