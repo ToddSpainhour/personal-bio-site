@@ -15,25 +15,37 @@ nav {
 }
 
 .navbar-brand {
-font-size: 2rem;
+font-size: 5rem;
+}
+
+.name-in-navbar {
+    font-family: 'Odibee Sans';
 }
 
 h1 {
+    
     color: snow;
 }
 
 h2 {
+    font-family: 'Roboto';
     text-align: center;
     padding-bottom: 5%;
 }
 
 h3 {
+    font-family: 'Roboto';
     padding-left: 20%;
     padding-right: 20%
 }
 
 h5 {
+    font-family: 'Roboto';
     text-align: center;
+}
+
+p {
+    font-family: 'Roboto';
 }
 
 #bioPage {
