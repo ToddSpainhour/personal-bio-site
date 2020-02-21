@@ -2,7 +2,7 @@
 const projects = [
     {
         title: "Great Project", 
-        screenshot: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TLuZFKusXmzYj1n2XpNp4OU4k4gb60OPofAltjxheWC8-CcXPw&s", 
+        screenshot: "https://images.squarespace-cdn.com/content/v1/50b88908e4b012760ada1011/1491898940561-V4HUKHP518IQWSZQTTQO/ke17ZwdGBToddI8pDm48kPpAUHgePZ6DjVP_od6QqdRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx003ftK54AGUBJTS7GpzyME5fZXl5dhCxku1Jd0idtO00BVIvIqn75PEXxKdOxIj0/image-asset.jpeg", 
         description: "This is the greatest project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -12,7 +12,7 @@ const projects = [
 
     {
         title: "Cool Project", 
-        screenshot: "https://img.favpng.com/22/11/0/responsive-web-design-web-development-computer-icons-icon-design-png-favpng-nDHYbePFnXDSXgv0jm6QdSJgC.jpg", 
+        screenshot: "https://images.squarespace-cdn.com/content/v1/50b88908e4b012760ada1011/1491898940561-V4HUKHP518IQWSZQTTQO/ke17ZwdGBToddI8pDm48kPpAUHgePZ6DjVP_od6QqdRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx003ftK54AGUBJTS7GpzyME5fZXl5dhCxku1Jd0idtO00BVIvIqn75PEXxKdOxIj0/image-asset.jpeg", 
         description: "This is the coolest project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -22,7 +22,7 @@ const projects = [
 
     {
         title: "Wonderful Project", 
-        screenshot: "https://img.favpng.com/21/25/3/computer-icons-stopwatch-chronometer-watch-icon-design-png-favpng-HbeXKpp7rnhmQvaGVBWNkSXdd.jpg", 
+        screenshot: "https://images.squarespace-cdn.com/content/v1/50b88908e4b012760ada1011/1491898940561-V4HUKHP518IQWSZQTTQO/ke17ZwdGBToddI8pDm48kPpAUHgePZ6DjVP_od6QqdRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx003ftK54AGUBJTS7GpzyME5fZXl5dhCxku1Jd0idtO00BVIvIqn75PEXxKdOxIj0/image-asset.jpeg", 
         description: "This is the most wonderful project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
