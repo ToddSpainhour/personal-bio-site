@@ -1,9 +1,9 @@
 
 const projects = [
     {
-        title: "Great Project", 
-        screenshot: "https://images.squarespace-cdn.com/content/v1/50b88908e4b012760ada1011/1491898940561-V4HUKHP518IQWSZQTTQO/ke17ZwdGBToddI8pDm48kPpAUHgePZ6DjVP_od6QqdRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx003ftK54AGUBJTS7GpzyME5fZXl5dhCxku1Jd0idtO00BVIvIqn75PEXxKdOxIj0/image-asset.jpeg", 
-        description: "This is the greatest project", // A good project description includes 'the what', 'the why', and 'the how'.
+        title: "Project 1", 
+        screenshot: "https://thumbs.dreamstime.com/z/concept-design-training-construction-project-web-color-line-icons-collection-77263563.jpg", 
+        description: "This will be project 1", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
         url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
@@ -11,9 +11,9 @@ const projects = [
     },
 
     {
-        title: "Cool Project", 
-        screenshot: "https://images.squarespace-cdn.com/content/v1/50b88908e4b012760ada1011/1491898940561-V4HUKHP518IQWSZQTTQO/ke17ZwdGBToddI8pDm48kPpAUHgePZ6DjVP_od6QqdRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx003ftK54AGUBJTS7GpzyME5fZXl5dhCxku1Jd0idtO00BVIvIqn75PEXxKdOxIj0/image-asset.jpeg", 
-        description: "This is the coolest project", // A good project description includes 'the what', 'the why', and 'the how'.
+        title: "Project 2", 
+        screenshot: "https://miro.medium.com/max/1000/1*eP_YjUdAauMdRSwWzlOl3A.png", 
+        description: "This will be project 2", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
         url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
@@ -21,9 +21,9 @@ const projects = [
     },
 
     {
-        title: "Wonderful Project", 
-        screenshot: "https://images.squarespace-cdn.com/content/v1/50b88908e4b012760ada1011/1491898940561-V4HUKHP518IQWSZQTTQO/ke17ZwdGBToddI8pDm48kPpAUHgePZ6DjVP_od6QqdRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx003ftK54AGUBJTS7GpzyME5fZXl5dhCxku1Jd0idtO00BVIvIqn75PEXxKdOxIj0/image-asset.jpeg", 
-        description: "This is the most wonderful project", // A good project description includes 'the what', 'the why', and 'the how'.
+        title: "Project 3", 
+        screenshot: "https://cdn.nopio.com/wp-content/uploads/2016/05/28094946/web-development.jpg", 
+        description: "This will be project 3", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
         url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
@@ -41,13 +41,13 @@ const buildProjectCards = (arr) => {
 for (i = 0; i < arr.length; i++){
     if(projects[i].available === true) {
     
-    domString +=        '<div class="card-body col-lg-4" >'
-    domString +=            `<h2>${arr[i].title}</h2>`
+    domString +=        '<div class="card-body col-lg-3 bg-white" >'
+    domString +=            `<h2 class="text-center">${arr[i].title}</h2>`
     domString +=                `<img src="${arr[i].screenshot}">`
-    domString +=                    `<p>${arr[i].description}</p>`
-    domString +=                        `<p>${arr[i].technologiesUsed}</p>`
-    domString +=                            `<p>${"URL: "}${arr[i].url}</p>`
-    domString +=                                `<p>${"Github: "}${arr[i].githubUrl}</p>`
+    domString +=                    `<p class="text-center">${arr[i].description}</p>`
+    domString +=                        `<p class="text-center">${arr[i].technologiesUsed}</p>`
+    domString +=                            `<p class="text-center">${"URL: "}${arr[i].url}</p>`
+    domString +=                                `<p class="text-center">${"Github: "}${arr[i].githubUrl}</p>`
     domString +=                                    '</div>'
 } 
 }
