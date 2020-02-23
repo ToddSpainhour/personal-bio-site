@@ -9,6 +9,11 @@ body {
     color: snow;
 }
 
+.name-in-navbar {
+padding-left: 2%;
+padding-bottom: 1%;
+}
+
 nav {
     background-image: radial-gradient(circle, #4179A6,#326894);
     box-shadow: 5px 10px 18px #888888;
@@ -30,7 +35,8 @@ h1 {
 h2 {
     font-family: 'Roboto';
     text-align: center;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 h3 {
@@ -46,6 +52,10 @@ h5 {
 
 p {
     font-family: 'Roboto';
+}
+
+.text-on-white-background {
+    color: #326894
 }
 
 #bioPage {
@@ -64,26 +74,34 @@ p {
     background-image: radial-gradient(circle, #4179A6,#326894);
     box-shadow: 0px 10px 20px #888888;
     color: seashell;
-    padding-top: 5%;;
-    padding-bottom: 5%;
+    /* padding-top: 5%;;
+    padding-bottom: 5%; */
+    /* padding: 5% */
 }
 
-.icons {
+/* .icons {
     justify-items: center;
-}
+} */
 
 .tech-icon {
     padding: 15px;
-    /* margin: auto; */
+    margin-bottom: 25px;
 
+}
+
+.card-body {
+    box-shadow: 0px 10px 20px #888888;
+    margin-bottom: 50px;
+
+}
+
+.card-body img {
+margin-bottom: 15px;
 }
 
 #projectsPage {
    
     color: #4179A6;
-    padding-top: 5%;;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
 }
 
 #resumePage {
@@ -94,8 +112,8 @@ p {
 }
 
 img {
-max-width: 25%;
-max-height: 25%;
+width: 100%;
+height: auto;
 }
 
 .page-footer {
