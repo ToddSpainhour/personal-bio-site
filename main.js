@@ -40,16 +40,15 @@ const buildProjectCards = (arr) => {
     let domString = '';
 for (i = 0; i < arr.length; i++){
     if(projects[i].available === true) {
-domString += '<div class="individualProjectCards col">'
-
-    domString += `<h2>${arr[i].title}</h2>`
-    domString +=    `<img src="${arr[i].screenshot}">`
-    domString +=        `<p>${arr[i].description}</p>`
-    domString +=            `<p>${arr[i].technologiesUsed}</p>`
-    domString +=                `<p>${"URL: "}${arr[i].url}</p>`
-    domString +=                    `<p>${"Github: "}${arr[i].githubUrl}</p>`
-
-domString += '</div>'
+    
+    domString +=        '<div class="card-body col-lg-4" >'
+    domString +=            `<h2>${arr[i].title}</h2>`
+    domString +=                `<img src="${arr[i].screenshot}">`
+    domString +=                    `<p>${arr[i].description}</p>`
+    domString +=                        `<p>${arr[i].technologiesUsed}</p>`
+    domString +=                            `<p>${"URL: "}${arr[i].url}</p>`
+    domString +=                                `<p>${"Github: "}${arr[i].githubUrl}</p>`
+    domString +=                                    '</div>'
 } 
 }
 printToDom('printProjectsHere', domString)

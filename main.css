@@ -78,13 +78,13 @@ p {
 
 }
 
-#projectsPage {
+/* #projectsPage {
    
     color: #4179A6;
     padding-top: 5%;;
     padding-bottom: 5%;
     margin-bottom: 5%;
-}
+} */
 
 #resumePage {
     background-image: radial-gradient(circle, #4179A6,#326894);
@@ -94,8 +94,8 @@ p {
 }
 
 img {
-max-width: 25%;
-max-height: 25%;
+width: 100%;
+height: auto;
 }
 
 .page-footer {
