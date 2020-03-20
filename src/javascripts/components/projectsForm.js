@@ -9,7 +9,7 @@ const buildProjectCards = () => {
     if (project.available === true) {
       domString += '<div class="card-body col-lg-3 bg-white" >';
       domString += `<h2 class="text-center">${project.title}</h2>`;
-      domString += `<img src="${project.screenshot}">`;
+      domString += `<img src="${project.screenshot}" class="card-img">`;
       domString += `<p class="text-center">${project.description}</p>`;
       domString += `<p class="text-center">${project.technologiesUsed}</p>`;
       domString += `<p class="text-center">${'URL: '}${project.url}</p>`;
