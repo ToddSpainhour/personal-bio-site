@@ -1,12 +1,24 @@
 @import 'src/styles/variables';
 
+.section-divider-line {
+  border-style: solid;
+  border-width: 3px;
+  border-color: $color-3;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 10%;
+  justify-content: center;
+}
+
 .section-title { 
-  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
   font-weight: bold;
   margin-top: 5%;
   margin-bottom: 5%;
+  // margin-left: 20%;
+  color: $color-3;
   text-align: center;
-  color: $color-2;
 }
 
 //bio 
