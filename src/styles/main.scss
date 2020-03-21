@@ -4,6 +4,8 @@
 @import "variables";
 @import "banner";
 @import "sections";
+@import "../javascripts/components/projectsForm";
+@import "footer";
 
 
 body {
@@ -19,8 +21,6 @@ h2 {
   color: $color-3;
 }
 
-h3 {
-  color: white;
-}
+
 
 

@@ -10,22 +10,22 @@ const projects = [
   },
 
   {
-    title: 'Project 2',
+    title: 'Bear Watcher',
     screenshot: 'https://raw.githubusercontent.com/ToddSpainhour/bear-watcher/master/screenshots/bear-watcher-screenshot-v1.PNG',
-    description: 'Bear Watcher',
+    description: 'Ever poke around the web for bear pictures? Well, put them all in one place...and you get to name them.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Webpack, Version Control with Github',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
+    url: '<a href="https://github.com/ToddSpainhour/bear-watcher">Live Site</a>',
     githubUrl: '<a href="https://github.com/ToddSpainhour/bear-watcher">See the Code</a>',
   },
 
   {
-    title: 'Project 3',
+    title: 'Tamagotchi',
     screenshot: 'https://raw.githubusercontent.com/ToddSpainhour/tamagotchi/master/src/screenshots/tamagotchi_v1.jpg',
-    description: 'Tamagotchi',
+    description: 'Remember tamagotchis? I made a simplified version where you can influence stats, like health and energy',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Webpack, Version Control with Github',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
+    url: '<a href="https://github.com/ToddSpainhour/tamagotchi">Live Site</a>',
     githubUrl: '<a href="https://github.com/ToddSpainhour/tamagotchi">See the Code</a>',
   },
 
