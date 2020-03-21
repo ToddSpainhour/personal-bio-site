@@ -4,6 +4,8 @@
 @import "variables";
 @import "banner";
 @import "sections";
+@import "../javascripts/components/projectsForm";
+@import "footer";
 
 
 body {
@@ -16,11 +18,9 @@ svg {
 }
 
 h2 {
-  color: white;
+  color: $color-3;
 }
 
-h3 {
-  color: white;
-}
+
 
 
