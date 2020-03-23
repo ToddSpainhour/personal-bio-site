@@ -6,7 +6,7 @@
   border-color: $color-3;
   margin-left: 33%;
   margin-right: 33%;
-  margin-top: 10%;
+  margin-bottom: 3%;
   justify-content: center;
 }
 
@@ -15,7 +15,7 @@
   font-size: 3rem;
   font-weight: bold;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   // margin-left: 20%;
   color: $color-3;
   text-align: center;
@@ -25,10 +25,22 @@
   background-color: $color-4;
 }
 
-//bio 
+.icons {
+  padding-bottom: 5%;
+}
+// .fullPage {
+//   height: 100vh;
+// }
+
+ 
+#bioPage {
+  height: 90vh;
+}
+
 h3 {
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 3%;
   text-align: center;
   color: $color-4;
 }
@@ -43,4 +55,11 @@ h3 {
   color: $color-2;
   transition: 500ms;
   transition-timing-function: ease-out;
+}
+
+
+//resume
+
+#resumePage {
+  height: 100vh;
 }

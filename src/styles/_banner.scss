@@ -8,22 +8,17 @@ body {
   margin: 0;
 }
 
-
 nav {
-  padding-top: 0;
-  border-style: solid;
-  border-color: $color-3;
-  border-bottom-width: 5px;
-  border-left-width: 0px;
-
-.navbar {
-  padding-top: 0px;
-}
+  
   .name-in-navbar {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $color-3;
     font-size: 5rem;
     margin-left: 5%;
+  }
+
+  #nav-link.hover {
+    color: $color-3;
   }
 
   .nav-item {
@@ -32,6 +27,7 @@ nav {
 
   .navbar-brand {
     padding-top: 0;
+    transform: rotate(-90deg)
   }
 }
 
@@ -40,3 +36,35 @@ nav {
   margin-bottom: 0px;
 }
 
+a {
+  color: $color-4;
+}
+
+// a:hover::after {
+//   border-style: solid;
+//   border-bottom-width: 5px;
+//   border-color: snow;
+//   transition: 500ms;
+//   transition-timing-function: ease-out;
+// }
+
+
+.hover-border {
+  position: relative;
+  color: $color-4;
+}
+
+.hover-border::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  position: absolute;
+  bottom: 0%; left: 50%;
+  background-color: $color-1;
+  transition: all 500ms ease;
+}
+
+.hover-border:hover::after {
+  left: 0%;
+  width: 100%;
+}
