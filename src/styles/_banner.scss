@@ -25,12 +25,16 @@ nav {
     font-size: larger;
   }
 
-  .navbar-brand {
-    padding-top: 0;
-    transform: rotate(-90deg)
+  .navbar-brand-left {
+    transform: rotate(-90deg);
+    margin-right: 3%;
+  }
+  .navbar-brand-right {
+    transform: rotate(90deg);
+    margin-right: 2%;
+
   }
 }
-
 
 .navbar-brand {
   margin-bottom: 0px;
