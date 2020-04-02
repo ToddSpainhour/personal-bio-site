@@ -7,7 +7,7 @@ const buildProjectCards = () => {
   const projects = projectInfo.getProjects();
   projects.forEach((project) => {
     if (project.available === true) {
-      domString += '<div class="card-body col-lg-3 m-1 mb-5   bg-white" >';
+      domString += '<div class="card-body col-lg-3 m-1 mb-5" >';
       domString += `<h2 class="text-center">${project.title}</h2>`;
       domString += `<img src="${project.screenshot}" class="card-img">`;
       domString += `<p class="text-center">${project.description}</p>`;

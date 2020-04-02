@@ -14,7 +14,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3rem;
   font-weight: bold;
-  margin-top: 5%;
+  padding-top: 5%;
   margin-bottom: 1%;
   // margin-left: 20%;
   color: $color-3;
@@ -54,9 +54,18 @@ h3 {
   transition-timing-function: ease-out;
 }
 
+// projects
+.card-body {
+  background-color: $color-4;
+
+    a {
+      color: $color-3;
+    }
+}
 
 //resume
 
 #resumePage {
+  background-color: $color-4;
   height: 100vh;
 }
