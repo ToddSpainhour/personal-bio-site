@@ -5,7 +5,7 @@ const projects = [
     description: 'In this project, I created a mock pet adoption site where the user can narrow down what type of pet they are looking for.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
     available: true,
-    url: '<a href="https://github.com/ToddSpainhour/pet-adoption">Live Site</a>',
+    url: '<a href="https://pet-adoption-6eaa5.web.app/">Live Site</a>',
     githubUrl: '<a href="https://github.com/ToddSpainhour/pet-adoption">See the Code</a>',
   },
 
@@ -15,7 +15,7 @@ const projects = [
     description: 'Ever poke around the web for bear pictures? Well, put them all in one place...and you get to name them.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Webpack, Version Control with Github',
     available: true,
-    url: '<a href="https://github.com/ToddSpainhour/bear-watcher">Live Site</a>',
+    url: '<a href="https://bear-watcher-48d39.web.app/">Live Site</a>',
     githubUrl: '<a href="https://github.com/ToddSpainhour/bear-watcher">See the Code</a>',
   },
 
@@ -25,7 +25,7 @@ const projects = [
     description: 'Remember tamagotchis? I made a simplified version where you can influence stats, like health and energy',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Webpack, Version Control with Github',
     available: true,
-    url: '<a href="https://github.com/ToddSpainhour/tamagotchi">Live Site</a>',
+    url: '<a href="https://tamagotchi-18c35.web.app/">Live Site</a>',
     githubUrl: '<a href="https://github.com/ToddSpainhour/tamagotchi">See the Code</a>',
   },
 
