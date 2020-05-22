@@ -1,7 +1,33 @@
 @import '../styles/variables';
 
 
-.card-body p {
-  color: $color-3;
+.card-body {
+  img {
+    margin-bottom: 2rem;
+  }
 
+  .scale-up {
+    transition-duration: .2s;
+  }
+
+  .scale-up:hover {
+    transform: scale(1.05);
+  }
+
+  h6 {
+    color: $color-3;
+    padding-bottom: 1rem;
+  }
+
+  p {
+  color: $color-3;
+  padding-bottom: 1rem;
+}
+  .project-card-links {
+    justify-content: space-evenly;
+  }
+
+  .project-link-icons {
+    margin-left: .5rem;
+  }
 }
