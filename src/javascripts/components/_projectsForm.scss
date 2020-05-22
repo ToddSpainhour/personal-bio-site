@@ -2,12 +2,17 @@
 
 
 .card-body {
+  h2 {
+    padding-bottom: 1rem;
+  }
+  
   img {
     margin-bottom: 2rem;
   }
 
   .scale-up {
-    transition-duration: .2s;
+    transition: 250ms;
+  transition-timing-function: ease-in-out;
   }
 
   .scale-up:hover {
