@@ -20,11 +20,20 @@
 "Project3": {
     "title": "Tamagotchi",
     "screenshot": "https://raw.githubusercontent.com/ToddSpainhour/tamagotchi/master/src/screenshots/tamagotchi_v1.jpg",
-    "description": "Remember tamagotchis? I made a simplified version where you can influence stats, like health and energy",
+    "description": "Remember tamagotchis? I made a simplified version where you can influence stats, like health and energy.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Webpack, Version Control with Github",
     "available": true,
     "url": "https://tamagotchi-18c35.web.app/",
     "githubUrl": "https://github.com/ToddSpainhour/tamagotchi"
-  }
+  },
+  "Project4": {
+      "title": "Mushroom-Picker",
+      "screenshot": "https://raw.githubusercontent.com/ToddSpainhour/mushroom-picker/master/Screenshots/mushroom-picker-screenshot-1.JPG",
+      "description": "Press your luck picking random mushrooms in my first React project.",
+      "technologiesUsed": "HTML, SCSS, React, Version Control with Github",
+      "available": true,
+      "url": "https://mushroom-picker-6b4fc.web.app/",
+      "githubUrl": "https://github.com/ToddSpainhour/mushroom-picker"
+    }
 }
 
