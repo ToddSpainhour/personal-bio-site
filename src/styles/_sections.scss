@@ -24,21 +24,20 @@
 //   margin-bottom: 3%;
 // }
 
-
-#technologiesPage {
-  background-color: $color-4;
-  // margin-top: 3%;
-}
-
-.icons {
-  padding-bottom: 5%;
-}
-
- 
 #bioPage {
   height: 65vh;
   width: 100%;
   margin-bottom: 30px;
+}
+
+#technologiesPage {
+  background-color: $color-4;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
 }
 
 h3 {
