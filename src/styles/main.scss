@@ -10,7 +10,14 @@
 
 body {
   background-color: $background;
+  display: flex;
+  flex-direction: column;
 };
+
+
+main {
+  max-width: 100%;
+}
 
 svg {
   height: 5%;

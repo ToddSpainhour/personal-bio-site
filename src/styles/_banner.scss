@@ -13,7 +13,7 @@ nav {
   .name-in-navbar {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $color-3;
-    font-size: 5rem;
+    // font-size: 5rem;
     margin-left: 5%;
   }
 
@@ -41,13 +41,13 @@ a {
   color: $color-4;
 }
 
-// a:hover::after {
-//   border-style: solid;
-//   border-bottom-width: 5px;
-//   border-color: snow;
-//   transition: 500ms;
-//   transition-timing-function: ease-out;
-// }
+a:hover::after {
+  border-style: solid;
+  border-bottom-width: 5px;
+  border-color: snow;
+  transition: 500ms;
+  transition-timing-function: ease-out;
+}
 
 
 .hover-border {
