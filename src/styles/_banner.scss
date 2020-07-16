@@ -4,16 +4,18 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
 }
+
 
 nav {
   
   .name-in-navbar {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: $color-3;
-    // font-size: 5rem;
+    font-size: 5rem;
     margin-left: 5%;
   }
 
@@ -21,10 +23,12 @@ nav {
     color: $color-3;
   }
 
+
   .navbar-nav{
     font-size: 1.5rem;
   padding: 5%;
   }
+
 
   .navbar-brand-left {
     transform: rotate(-90deg);
@@ -33,20 +37,14 @@ nav {
   
 }
 
+
 .navbar-brand {
   margin-bottom: 0px;
 }
 
+
 a {
   color: $color-4;
-}
-
-a:hover::after {
-  border-style: solid;
-  border-bottom-width: 5px;
-  border-color: snow;
-  transition: 500ms;
-  transition-timing-function: ease-out;
 }
 
 
@@ -54,6 +52,7 @@ a:hover::after {
   position: relative;
   color: $color-4;
 }
+
 
 .hover-border::after {
   content: '';
@@ -64,6 +63,7 @@ a:hover::after {
   background-color: $color-1;
   transition: all 500ms ease;
 }
+
 
 .hover-border:hover::after {
   left: 0%;
