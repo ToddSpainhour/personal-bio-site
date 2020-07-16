@@ -16,23 +16,25 @@
   font-weight: bold;
   padding-top: 5%;
   margin-bottom: 1%;
-  // margin-left: 20%;
   color: $color-3;
   text-align: center;
 }
 
+
+#bioPage {
+  height: 65vh;
+  width: 100%;
+  margin-bottom: 1%;
+}
 
 #technologiesPage {
   background-color: $color-4;
 }
 
 .icons {
+  display: flex;
+  flex-wrap: wrap;
   padding-bottom: 5%;
-}
-
- 
-#bioPage {
-  height: 65vh;
 }
 
 h3 {
