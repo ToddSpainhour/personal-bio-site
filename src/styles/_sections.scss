@@ -22,13 +22,13 @@
 
 
 #bioPage {
-  height: 65vh;
   width: 100%;
-  margin-bottom: 1%;
+  margin-bottom: 10%;
 }
 
 #technologiesPage {
   background-color: $color-4;
+  margin-bottom: 5%;
 }
 
 .icons {
@@ -38,9 +38,10 @@
 }
 
 h3 {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 3%;
+  margin-top: 5%;
   text-align: center;
   color: $color-4;
 }
