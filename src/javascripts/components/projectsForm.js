@@ -13,7 +13,11 @@ const buildProjectCards = () => {
           domString += `<h6 class="text-center">${project.description}</h6>`;
           domString += `<p class="text-center">${project.technologiesUsed}</p>`;
           domString += '<div class="row project-card-links">';
-          domString += `<h6 class="text-center"><a href="${project.url}" target="_blank">See the Site<i class="project-link-icons fas fa-external-link-square-alt"></i></a></h6>`;
+          if (project.title === 'What Is Voting Like?') {
+            domString += `<h6 class="text-center"><a href="${project.url}" target="_blank">See the Demo<i class="project-link-icons fas fa-external-link-square-alt"></i></a></h6>`;
+          } else {
+            domString += `<h6 class="text-center"><a href="${project.url}" target="_blank">See the Site<i class="project-link-icons fas fa-external-link-square-alt"></i></a></h6>`;
+          }
           domString += `<h6 class="text-center"><a href="${project.githubUrl}" target="_blank">See the Code<i class="project-link-icons fas fa-code"></i></a></h6>`;
           domString += '</div>';
           domString += '</div>';
