@@ -18,27 +18,36 @@
     "githubUrl": "https://github.com/ToddSpainhour/bear-watcher"
   },
   "Project3": {
+    "title": "What Is Voting Like?",
+    "screenshot": "https://raw.githubusercontent.com/ToddSpainhour/WhatIsVotingLike/master/whatisvotinglike.ui/src/images/screenshot-1.JPG",
+    "description": "My backend capstone is a training module built to encourage civic engagement by showing what it's like to vote in person.",
+    "technologiesUsed": "HTML, SCSS, React, React Router, C#, SQL, Version Control with Github",
+    "available": true,
+    "url": "https://youtu.be/HXsOj5ukgdU",
+    "githubUrl": "https://github.com/ToddSpainhour/WhatIsVotingLike"
+  },
+  "Project4": {
     "title": "Trash Tracker",
     "screenshot": "https://raw.githubusercontent.com/ToddSpainhour/trash-tracker/master/src/screenshots/my-trash-page.JPG",
-    "description": "My front-end capstone built to educate and encourage better decisions concerning things we choose to throw away or recycle.",
-    "technologiesUsed": "HTML, SCSS, React, React Router, Version Control with Github",
+    "description": "I built my frontend capstone to educate and encourage better decisions concerning things we choose to throw away or recycle.",
+    "technologiesUsed": "HTML, SCSS, React, React Router, Firebase, Version Control with Github",
     "available": true,
     "url": "https://trash-tracker-90d5a.web.app/welcome",
     "githubUrl": "https://github.com/ToddSpainhour/trash-tracker"
   },
-  "Project4": {
+  "Project5": {
       "title": "Mushroom Picker",
       "screenshot": "https://raw.githubusercontent.com/ToddSpainhour/mushroom-picker/master/Screenshots/mushroom-picker-screenshot-1.JPG",
-      "description": "Press your luck picking random mushrooms in my first React project. How many can you collect?",
+      "description": "One of my first React projects is a game about picking mushrooms. How many can you collect before your luck runs out?",
       "technologiesUsed": "HTML, SCSS, React, Version Control with Github",
       "available": true,
       "url": "https://mushroom-picker-6b4fc.web.app/",
       "githubUrl": "https://github.com/ToddSpainhour/mushroom-picker"
     },
-    "Project5": {
+    "Project6": {
       "title": "Tamagotchi",
       "screenshot": "https://raw.githubusercontent.com/ToddSpainhour/tamagotchi/master/src/screenshots/tamagotchi_v1.jpg",
-      "description": "Remember tamagotchis? I made a simplified version where you can influence stats, like health and energy.",
+      "description": "Remember tamagotchis? I made a simplified version where you can influence stats like health and energy.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Webpack, Version Control with Github",
       "available": true,
       "url": "https://tamagotchi-18c35.web.app/",
