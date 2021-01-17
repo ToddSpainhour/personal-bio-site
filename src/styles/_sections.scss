@@ -35,11 +35,25 @@
     color: $color-4;
     background-color: $color-3-hightlight;
   }
+
+  #view-resume-button {
+    color: $background;
+    background-color: $color-3;
+    font-weight: bold;
+  }
+
+  #view-resume-button:hover {
+    color: $color-4;
+    background-color: $color-3-hightlight;
+  }
 }
 
-.resume-veiwer-conatainer {
-  display: flex;
+#resume-veiwer-conatainer {
+  // display: flex;
+  display: none;
   justify-content: center;
+
+
 }
 
 
