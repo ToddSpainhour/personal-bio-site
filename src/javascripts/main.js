@@ -1,8 +1,17 @@
 import '../styles/main.scss';
 import buildProjectCards from './components/projectsForm';
 
+// const toggleResumeVisibility = () => {
+//   document.getElementById('resume-veiwer-conatainer').style.display = 'flex';
+// };
+
 const toggleResumeVisibility = () => {
-  document.getElementById('resume-veiwer-conatainer').style.display = 'flex';
+  const resumeDiv = document.getElementById('resume-veiwer-conatainer');
+  if (resumeDiv.style.display === 'none') {
+    resumeDiv.style.display = 'flex';
+  } else {
+    resumeDiv.style.display = 'none';
+  }
 };
 
 const events = () => {
