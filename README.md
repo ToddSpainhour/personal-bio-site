@@ -1,10 +1,16 @@
-# Title: Personal Bio Site 
+# Personal Bio Site 
 
-## Description: In this project, I created a personalized portfolio site with the purpose of sharing my projects and resume. 
+#### See the Site.
+https://toddspainhour.com/
+
+## Description 
+This is my portfolio site with the purpose of sharing my projects, resume, and contact information. 
 
 ## Screenshots
-![Project Screenshot](https://raw.githubusercontent.com/ToddSpainhour/personal-bio-site/master/screenshots/bio-site-screenshot-v3.png)
+![Project Screenshot](./screenshots/bio-site-screenshot-v4.png)
 
+## Technologies Used
+HTML5, SCSS, Bootstrap, JavaScript, jQuery, Firebase, Axios, Webpack 
 ## How To Run
 1. Clone down this repo.
 1. Make sure you have http-server installed via npm. If you don't have npm, get it here. (https://www.npmjs.com/package/http-server) 
