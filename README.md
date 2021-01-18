@@ -7,7 +7,7 @@ https://toddspainhour.com/
 This is my portfolio site with the purpose of sharing my projects, resume, and contact information. 
 
 ## Screenshots
-![Project Screenshot](./screenshots/bio-site-screenshot-v4.png)
+![Project Screenshot](https://raw.githubusercontent.com/ToddSpainhour/personal-bio-site/master/screenshots/bio-site-screenshot-v4.png)
 
 ## Technologies Used
 HTML5, SCSS, Bootstrap, JavaScript, jQuery, Firebase, Axios, Webpack 
